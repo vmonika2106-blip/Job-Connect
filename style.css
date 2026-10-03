@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3e8ff;
+}
+
+header {
+    background: #6d28d9;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background:white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    background-image:
+   url("home-bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height: 400px;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+button {
+    background: #1f4e79;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.features div {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.jobs {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+#search {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.job {
+    background:white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}

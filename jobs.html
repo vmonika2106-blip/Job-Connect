@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JobConnect - Jobs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>JobConnect</h1>
+    <p>Available Jobs</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="jobs.html">Jobs</a>
+</nav>
+
+<section class="jobs">
+
+    <h2>Latest Jobs</h2>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search jobs..."
+        onkeyup="searchJobs()"
+    >
+
+    <div id="jobList">
+
+        <div class="job">
+            <h3>Junior Web Developer</h3>
+            <p>Company: IBM Technologies</p>
+            <p>Location: Bangalore</p>
+            <p>Skills: HTML, CSS, JavaScript</p>
+            <button onclick="applyJob('Junior Web Developer')">
+                Apply
+            </button>
+        </div>
+
+        <div class="job">
+            <h3>Java Developer - Fresher</h3>
+            <p>Company: Infosys</p>
+            <p>Location: Bangalore</p>
+            <p>Skills: Java, SQL</p>
+            <button onclick="applyJob('Java Developer - Fresher')">
+                Apply
+            </button>
+        </div>
+
+        <div class="job">
+            <h3>Python Developer Intern</h3>
+            <p>Company: Tech Mahindra</p>
+            <p>Location: Chennai</p>
+            <p>Skills: Python, SQL</p>
+            <button onclick="applyJob('Python Developer Intern')">
+                Apply
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
